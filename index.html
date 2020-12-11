@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        // Picture element HTML5 shiv
+        document.createElement("picture");
+    </script>
+    <script src="js/picturefill.js" async></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Прилагодливи слики</title>
+</head>
+
+<body>
+    <div class="main-wrapper">
+        <h1>Прилагодливи слики</h1>
+        <div class="element">
+            <picture>
+                <source srcset="images/kids-large.jpg" media="(min-width: 900px)">
+                <source srcset="images/kid-medium.jpg" media="(min-width: 745px)">
+                <source srcset="images/kids-smal.jpg" media="(min-width: 478px)">
+                <img sizes="(min-width: 478px) 80vw, 100vw" alt="kid having fun">
+            </picture>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo culpa pariatur perspiciatis sit voluptatem
+                magni aut itaque rem minus aspernatur sed ratione numquam repellendus sequi maxime, quibusdam
+                doloremque! Omnis iusto voluptas tempore voluptatum harum. Quas aperiam ea nulla sed, quae accusamus
+                quidem aliquid perferendis eum commodi error est, reiciendis officia?</p>
+        </div>
+        <div class="element">
+            <img sizes="(min-width: 478px) 80vw, 480vw" srcset="images/small-kid.jpg 480w,
+                        images/medium-kid.jpg 745w,
+                        images/large-kid.jpg 900w" alt="…">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo culpa pariatur perspiciatis sit voluptatem
+                magni aut itaque rem minus aspernatur sed ratione numquam repellendus sequi maxime, quibusdam
+                doloremque! Omnis iusto voluptas tempore voluptatum harum. Quas aperiam ea nulla sed, quae accusamus
+                quidem aliquid perferendis eum commodi error est, reiciendis officia?</p>
+        </div>
+        <div class="element kid">
+            <img sizes="(min-width: 478px) 80vw, 480vw" srcset="images/kids-smal.jpg 480w,
+                        images/kid-medium.jpg 745w,
+                        images/kid-large.jpg 900w" alt="…">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nemo culpa pariatur perspiciatis sit voluptatem
+                magni aut itaque rem minus aspernatur sed ratione numquam repellendus sequi maxime, quibusdam
+                doloremque! Omnis iusto voluptas tempore voluptatum harum. Quas aperiam ea nulla sed, quae accusamus
+                quidem aliquid perferendis eum commodi error est, reiciendis officia?</p>
+        </div>
+        <div class="txt">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur sint optio cumque, numquam facere
+                quam maxime minus veniam praesentium provident nostrum asperiores voluptate. Ex cupiditate dolorem ab
+                deleniti autem voluptate itaque fugiat quibusdam quasi maiores dignissimos dolores, odio corrupti iste
+                velit nesciunt, possimus a, ipsam exercitationem delectus! Accusantium, unde? Repellendus eum, suscipit
+                alias reprehenderit voluptatibus, aspernatur eligendi quos rem nisi quidem aperiam id quibusdam earum
+                architecto itaque nihil blanditiis ut officiis nemo? Veniam saepe et provident sapiente maiores repellat
+                molestiae debitis? Tempore eveniet architecto in asperiores vero aperiam ipsam quaerat quidem dolorum
+                quam, voluptates doloribus non numquam deleniti veniam ut praesentium sunt, aliquam id hic magnam nobis!
+                Sint magnam ab quam libero beatae et dolorum laborum blanditiis? Modi velit delectus accusamus, sapiente
+                sed in cum eos iure provident dolorum. Corrupti numquam nihil voluptatem, illum architecto voluptate
+                recusandae nam iusto, eaque nostrum illo quaerat voluptates reiciendis id consequatur qui consequuntur
+                doloremque!</p>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
